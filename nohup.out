@@ -1,0 +1,5 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+127.0.0.1 - - [16/Jul/2015 18:59:40] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 18:59:48] "POST /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 18:59:48] "GET /index HTTP/1.1" 200 -
