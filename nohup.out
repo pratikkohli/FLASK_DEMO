@@ -3,3 +3,119 @@
 127.0.0.1 - - [16/Jul/2015 18:59:40] "GET /index HTTP/1.1" 200 -
 127.0.0.1 - - [16/Jul/2015 18:59:48] "POST /index HTTP/1.1" 302 -
 127.0.0.1 - - [16/Jul/2015 18:59:48] "GET /index HTTP/1.1" 200 -
+ * Detected change in '/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [16/Jul/2015 19:32:21] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:21] "GET /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:21] "GET /login?next=%2Findex HTTP/1.1" 200 -
+Generated checkid_setup request to https://www.google.com/accounts/o8/ud with assocication 1.AMlYA9UVYX5Gp1CEinVbh2mUQuMfWCflVaZ5V1w5UFNWtXUYpANG2yhgDD8vKA
+127.0.0.1 - - [16/Jul/2015 19:32:26] "POST /login?next=%2Findex HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:32] "GET /login?next=%2Findex HTTP/1.1" 200 -
+Generated checkid_setup request to https://open.login.yahooapis.com/openid/op/auth with assocication dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:32:36] "POST /login?next=%2Findex HTTP/1.1" 302 -
+Error attempting to use stored discovery information: <openid.consumer.consumer.TypeURIMismatch: Required type http://specs.openid.net/auth/2.0/signon not found in ['http://specs.openid.net/auth/2.0/server', 'http://specs.openid.net/extensions/pape/1.0', 'http://openid.net/srv/ax/1.0', 'http://specs.openid.net/extensions/oauth/1.0', 'http://specs.openid.net/extensions/ui/1.0/lang-pref', 'http://specs.openid.net/extensions/ui/1.0/mode/popup', 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier', 'http://www.idmanagement.gov/schema/2009/05/icam/no-pii.pdf', 'http://www.idmanagement.gov/schema/2009/05/icam/openid-trust-level1.pdf', 'http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf'] for endpoint <openid.consumer.discover.OpenIDServiceEndpoint server_url='https://open.login.yahooapis.com/openid/op/auth' claimed_id=None local_id=None canonicalID=None used_yadis=True >>
+Attempting discovery to verify endpoint
+Performing discovery on https://me.yahoo.com/a/V5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--#8352c
+Received id_res response from https://open.login.yahooapis.com/openid/op/auth using association dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:32:40] "GET /login?next=/index&openid_complete=yes&janrain_nonce=2015-07-16T23%3A32%3A36Zyi7zdi&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.return_to=http%3A%2F%2Flocalhost%3A5000%2Flogin%3Fnext%3D%2Findex%26openid_complete%3Dyes%26janrain_nonce%3D2015-07-16T23%253A32%253A36Zyi7zdi&openid.claimed_id=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--%238352c&openid.identity=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--&openid.assoc_handle=dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-&openid.realm=http%3A%2F%2Flocalhost%3A5000%2F&openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ax.mode=fetch_response&openid.ax.value.email=catch_pratik%40yahoo.com&openid.ax.value.nickname=Pratik%20Kohli&openid.response_nonce=2015-07-16T23%3A32%3A39ZZOCskPPHgGGUrD2t9PtzLOMNmnbP9RdiLw--&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned%2Cax.value.email%2Cax.type.email%2Cax.value.nickname%2Cax.type.nickname%2Cns.ax%2Cax.mode%2Cpape.auth_level.nist&openid.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&openid.ax.type.email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ax.type.nickname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&openid.pape.auth_level.nist=0&openid.sig=vjwo1S8AEggN2tINhmVakxQgSbY%3D HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:40] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:32:54] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:54] "GET /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:54] "GET /login?next=%2Findex HTTP/1.1" 200 -
+Generated checkid_setup request to https://open.login.yahooapis.com/openid/op/auth with assocication dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:32:58] "POST /login?next=%2Findex HTTP/1.1" 302 -
+Error attempting to use stored discovery information: <openid.consumer.consumer.TypeURIMismatch: Required type http://specs.openid.net/auth/2.0/signon not found in ['http://specs.openid.net/auth/2.0/server', 'http://specs.openid.net/extensions/pape/1.0', 'http://openid.net/srv/ax/1.0', 'http://specs.openid.net/extensions/oauth/1.0', 'http://specs.openid.net/extensions/ui/1.0/lang-pref', 'http://specs.openid.net/extensions/ui/1.0/mode/popup', 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier', 'http://www.idmanagement.gov/schema/2009/05/icam/no-pii.pdf', 'http://www.idmanagement.gov/schema/2009/05/icam/openid-trust-level1.pdf', 'http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf'] for endpoint <openid.consumer.discover.OpenIDServiceEndpoint server_url='https://open.login.yahooapis.com/openid/op/auth' claimed_id=None local_id=None canonicalID=None used_yadis=True >>
+Attempting discovery to verify endpoint
+Performing discovery on https://me.yahoo.com/a/V5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--#8352c
+Received id_res response from https://open.login.yahooapis.com/openid/op/auth using association dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:32:59] "GET /login?next=/index&openid_complete=yes&janrain_nonce=2015-07-16T23%3A32%3A58ZwiZnW7&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.return_to=http%3A%2F%2Flocalhost%3A5000%2Flogin%3Fnext%3D%2Findex%26openid_complete%3Dyes%26janrain_nonce%3D2015-07-16T23%253A32%253A58ZwiZnW7&openid.claimed_id=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--%238352c&openid.identity=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--&openid.assoc_handle=dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-&openid.realm=http%3A%2F%2Flocalhost%3A5000%2F&openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ax.mode=fetch_response&openid.ax.value.email=catch_pratik%40yahoo.com&openid.ax.value.nickname=Pratik%20Kohli&openid.response_nonce=2015-07-16T23%3A32%3A58ZrBaMrFhhzzT96eUEzuHdKUQ4okxtvqq.Uw--&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned%2Cax.value.email%2Cax.type.email%2Cax.value.nickname%2Cax.type.nickname%2Cns.ax%2Cax.mode%2Cpape.auth_level.nist&openid.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&openid.ax.type.email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ax.type.nickname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&openid.pape.auth_level.nist=0&openid.sig=5m7l7DxCO1l4HpYhPHVOM1107kw%3D HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:32:59] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:01] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:05] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:08] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:09] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:09] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:10] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:12] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:12] "GET /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:12] "GET /login?next=%2Findex HTTP/1.1" 200 -
+ * Detected change in '/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py', reloading
+ * Restarting with stat
+Generated checkid_setup request to https://open.login.yahooapis.com/openid/op/auth with assocication dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:33:42] "POST /login?next=%2Findex HTTP/1.1" 302 -
+Error attempting to use stored discovery information: <openid.consumer.consumer.TypeURIMismatch: Required type http://specs.openid.net/auth/2.0/signon not found in ['http://specs.openid.net/auth/2.0/server', 'http://specs.openid.net/extensions/pape/1.0', 'http://openid.net/srv/ax/1.0', 'http://specs.openid.net/extensions/oauth/1.0', 'http://specs.openid.net/extensions/ui/1.0/lang-pref', 'http://specs.openid.net/extensions/ui/1.0/mode/popup', 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier', 'http://www.idmanagement.gov/schema/2009/05/icam/no-pii.pdf', 'http://www.idmanagement.gov/schema/2009/05/icam/openid-trust-level1.pdf', 'http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf'] for endpoint <openid.consumer.discover.OpenIDServiceEndpoint server_url='https://open.login.yahooapis.com/openid/op/auth' claimed_id=None local_id=None canonicalID=None used_yadis=True >>
+Attempting discovery to verify endpoint
+Performing discovery on https://me.yahoo.com/a/V5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--#8352c
+Received id_res response from https://open.login.yahooapis.com/openid/op/auth using association dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:33:43] "GET /login?next=/index&openid_complete=yes&janrain_nonce=2015-07-16T23%3A33%3A42ZCgfk96&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.return_to=http%3A%2F%2Flocalhost%3A5000%2Flogin%3Fnext%3D%2Findex%26openid_complete%3Dyes%26janrain_nonce%3D2015-07-16T23%253A33%253A42ZCgfk96&openid.claimed_id=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--%238352c&openid.identity=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--&openid.assoc_handle=dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-&openid.realm=http%3A%2F%2Flocalhost%3A5000%2F&openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ax.mode=fetch_response&openid.ax.value.email=catch_pratik%40yahoo.com&openid.ax.value.nickname=Pratik%20Kohli&openid.response_nonce=2015-07-16T23%3A33%3A42ZtXiEPj9m9xbu.4Vr4Fx7an4_AVpFy1CLEw--&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned%2Cax.value.email%2Cax.type.email%2Cax.value.nickname%2Cax.type.nickname%2Cns.ax%2Cax.mode%2Cpape.auth_level.nist&openid.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&openid.ax.type.email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ax.type.nickname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&openid.pape.auth_level.nist=0&openid.sig=E0AiUBp%2FIVqew9FZcAvtq19eBFI%3D HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:43] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:33:50] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:50] "GET /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:50] "GET /login?next=%2Findex HTTP/1.1" 200 -
+Generated checkid_setup request to https://open.login.yahooapis.com/openid/op/auth with assocication dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:33:53] "POST /login?next=%2Findex HTTP/1.1" 302 -
+Error attempting to use stored discovery information: <openid.consumer.consumer.TypeURIMismatch: Required type http://specs.openid.net/auth/2.0/signon not found in ['http://specs.openid.net/auth/2.0/server', 'http://specs.openid.net/extensions/pape/1.0', 'http://openid.net/srv/ax/1.0', 'http://specs.openid.net/extensions/oauth/1.0', 'http://specs.openid.net/extensions/ui/1.0/lang-pref', 'http://specs.openid.net/extensions/ui/1.0/mode/popup', 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier', 'http://www.idmanagement.gov/schema/2009/05/icam/no-pii.pdf', 'http://www.idmanagement.gov/schema/2009/05/icam/openid-trust-level1.pdf', 'http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf'] for endpoint <openid.consumer.discover.OpenIDServiceEndpoint server_url='https://open.login.yahooapis.com/openid/op/auth' claimed_id=None local_id=None canonicalID=None used_yadis=True >>
+Attempting discovery to verify endpoint
+Performing discovery on https://me.yahoo.com/a/V5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--#8352c
+Received id_res response from https://open.login.yahooapis.com/openid/op/auth using association dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:33:54] "GET /login?next=/index&openid_complete=yes&janrain_nonce=2015-07-16T23%3A33%3A53ZhAFXge&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.return_to=http%3A%2F%2Flocalhost%3A5000%2Flogin%3Fnext%3D%2Findex%26openid_complete%3Dyes%26janrain_nonce%3D2015-07-16T23%253A33%253A53ZhAFXge&openid.claimed_id=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--%238352c&openid.identity=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--&openid.assoc_handle=dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-&openid.realm=http%3A%2F%2Flocalhost%3A5000%2F&openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ax.mode=fetch_response&openid.ax.value.email=catch_pratik%40yahoo.com&openid.ax.value.nickname=Pratik%20Kohli&openid.response_nonce=2015-07-16T23%3A33%3A53Z81xmUsikwkpp3OqKjaWOa7f8RUzIb36W5A--&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned%2Cax.value.email%2Cax.type.email%2Cax.value.nickname%2Cax.type.nickname%2Cns.ax%2Cax.mode%2Cpape.auth_level.nist&openid.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&openid.ax.type.email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ax.type.nickname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&openid.pape.auth_level.nist=0&openid.sig=oBn2QYYdWyAx982onSRHMhOY%2BDE%3D HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:33:54] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:37:01] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:37:01] "GET /index HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:37:01] "GET /login?next=%2Findex HTTP/1.1" 200 -
+Generated checkid_setup request to https://open.login.yahooapis.com/openid/op/auth with assocication dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:37:06] "POST /login?next=%2Findex HTTP/1.1" 302 -
+Error attempting to use stored discovery information: <openid.consumer.consumer.TypeURIMismatch: Required type http://specs.openid.net/auth/2.0/signon not found in ['http://specs.openid.net/auth/2.0/server', 'http://specs.openid.net/extensions/pape/1.0', 'http://openid.net/srv/ax/1.0', 'http://specs.openid.net/extensions/oauth/1.0', 'http://specs.openid.net/extensions/ui/1.0/lang-pref', 'http://specs.openid.net/extensions/ui/1.0/mode/popup', 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier', 'http://www.idmanagement.gov/schema/2009/05/icam/no-pii.pdf', 'http://www.idmanagement.gov/schema/2009/05/icam/openid-trust-level1.pdf', 'http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf'] for endpoint <openid.consumer.discover.OpenIDServiceEndpoint server_url='https://open.login.yahooapis.com/openid/op/auth' claimed_id=None local_id=None canonicalID=None used_yadis=True >>
+Attempting discovery to verify endpoint
+Performing discovery on https://me.yahoo.com/a/V5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--#8352c
+Received id_res response from https://open.login.yahooapis.com/openid/op/auth using association dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-
+127.0.0.1 - - [16/Jul/2015 19:37:07] "GET /login?next=/index&openid_complete=yes&janrain_nonce=2015-07-16T23%3A37%3A06ZOtQXj0&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.return_to=http%3A%2F%2Flocalhost%3A5000%2Flogin%3Fnext%3D%2Findex%26openid_complete%3Dyes%26janrain_nonce%3D2015-07-16T23%253A37%253A06ZOtQXj0&openid.claimed_id=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--%238352c&openid.identity=https%3A%2F%2Fme.yahoo.com%2Fa%2FV5Mz3TEEpZWlQK0ORcxWHJzFNVV4EwKugA--&openid.assoc_handle=dEywoQ1QOgAL.WY4szAkad9Y28rjM7Uuwq.C7gd65yVk1qnsVemGGatIyNiXK4Zn1ukgQgFlm4RjEYb0XFr1YiraX_e9QbTTElgOKe6SSNZgTy5HX7DOu4hqYdk5oPD1jxc-&openid.realm=http%3A%2F%2Flocalhost%3A5000%2F&openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ax.mode=fetch_response&openid.ax.value.email=catch_pratik%40yahoo.com&openid.ax.value.nickname=Pratik%20Kohli&openid.response_nonce=2015-07-16T23%3A37%3A07ZqDIg12UEWL59.qECNNYSRx2JkkBrQ04Qyw--&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned%2Cax.value.email%2Cax.type.email%2Cax.value.nickname%2Cax.type.nickname%2Cns.ax%2Cax.mode%2Cpape.auth_level.nist&openid.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&openid.ax.type.email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ax.type.nickname=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&openid.pape.auth_level.nist=0&openid.sig=DC5GGIGn27krX4psi%2F4g0VNybKo%3D HTTP/1.1" 302 -
+127.0.0.1 - - [16/Jul/2015 19:37:07] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:38:10] "GET /index HTTP/1.1" 200 -
+ * Detected change in '/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [16/Jul/2015 19:42:47] "GET /index HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:42:49] "GET /login?next=%2Findex HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:42:54] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:43:24] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:43:26] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:43:35] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2015 19:43:40] "GET / HTTP/1.1" 404 -
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Detected change in '/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [16/Jul/2015 19:55:19] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/Gopal/venv1/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py", line 51, in index
+    object_list = get_csv()
+  File "/Users/Gopal/Documents/microblog-version-0.10 2/app/views.py", line 13, in get_csv
+    csv_file = open(csv_path, 'rb')
+IOError: [Errno 2] No such file or directory: './static/la-riots-deaths.csv'
+127.0.0.1 - - [16/Jul/2015 19:55:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:19] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:20] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:20] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:55:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:57:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jul/2015 19:58:37] "GET / HTTP/1.1" 200 -

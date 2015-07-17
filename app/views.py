@@ -1,3 +1,4 @@
+import csv
 from flask import render_template, flash, redirect, session, url_for, request, g
 from flask.ext.login import login_user, logout_user, current_user, \
     login_required
@@ -7,6 +8,12 @@ from .forms import LoginForm, EditForm, PostForm, SearchForm
 from .models import User, Post
 from config import POSTS_PER_PAGE, MAX_SEARCH_RESULTS
 
+def get_csv():
+    csv_path = './static/la-riots-deaths.csv'
+    csv_file = open(csv_path, 'rb')
+    csv_obj = csv.DictReader(csv_file)
+    csv_list = list(csv_obj)
+    return csv_list
 
 @lm.user_loader
 def load_user(id):
@@ -39,20 +46,10 @@ def internal_error(error):
 @app.route('/index/<int:page>', methods=['GET', 'POST'])
 @login_required
 def index(page=1):
-    form = PostForm()
-    if form.validate_on_submit():
-        post = Post(body=form.post.data, timestamp=datetime.utcnow(),
-                    author=g.user)
-        db.session.add(post)
-        db.session.commit()
-        flash('Your post is now live!')
-        return redirect(url_for('index'))
-    posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
-    return render_template('index.html',
-                           title='Home',
-                           form=form,
-                           posts=posts)
 
+    template = 'index.html'
+    object_list = get_csv()
+    return render_template(template, object_list=object_list)
 
 @app.route('/login', methods=['GET', 'POST'])
 @oid.loginhandler
